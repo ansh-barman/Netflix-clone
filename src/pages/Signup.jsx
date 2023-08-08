@@ -4,7 +4,7 @@ import BackgroundImage from '../components/BackgroundImage';
 import Header from '../components/Header';
 import {firebaseAuth} from "../utils/firebase-config";
 import {createUserWithEmailAndPassword, onAuthStateChanged} from "firebase/auth";
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Signup() {
   const navigate = useNavigate();
