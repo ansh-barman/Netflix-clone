@@ -53,9 +53,9 @@ export default function Netflix() {
       <header className='banner'
         style={{
           backgroundSize: "cover",
-          backgroundImage: `url("https://images.pexels.com/photos/1542620/pexels-photo-1542620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")`,
+          // backgroundImage: `url("https://images.pexels.com/photos/1542620/pexels-photo-1542620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")`,
           backgroundPosition: "center center",
-          // backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+          backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         }}
       >
         <div className="container">
